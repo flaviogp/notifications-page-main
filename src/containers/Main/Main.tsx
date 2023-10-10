@@ -8,15 +8,31 @@ interface MainProps{
 }
 
 export default function Main({notifications, setNotifications}: MainProps) {
+    const handleClick = (user: string, action: string) => {
+
+        const newNotifications = [...notifications]
+        const notification = notifications.find(item => item.user === user && item.action === action)
+
+        if(!notification) return;
+
+        const notificationIndex = notifications.indexOf(notification)
+        const newNotification = {...notification, read: true}
+
+        newNotifications[notificationIndex] = newNotification
+
+        setNotifications(newNotifications)
+    }
+
   return (
     <main role='main'>
-        <Header notifications={notifications}/>
+        <Header notifications={notifications} setNotifications={setNotifications}/>
         <div className="content">
 
         {
             notifications.map(item => {
                 return(
                     <Notification 
+                        key={`${item.user}${item.action}`}
                         user={item.user}
                         userImage={item.userImage}
                         action={item.action}
@@ -24,6 +40,7 @@ export default function Main({notifications, setNotifications}: MainProps) {
                         content={item.content}
                         dateTime={item.dateTime}
                         read={item.read}
+                        handleClick={handleClick}
                     />
 
                 )

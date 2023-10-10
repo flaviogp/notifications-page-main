@@ -1,4 +1,4 @@
-interface IContent {item: string, content: string}
+export interface IContent {item: string, content: string}
 
 export interface INotification {
     user: string
@@ -9,5 +9,4 @@ export interface INotification {
     dateTime: string
     read: boolean
 }
-
 export type IData = INotification[] 

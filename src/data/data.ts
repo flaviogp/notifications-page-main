@@ -8,9 +8,9 @@ export const data = [
         read: false
     },
     {
-        user: 'Angela',
+        user: 'Angela Gray',
         userImage: './src/assets/images/avatar-angela-gray.webp',
-        action: 'follow you',
+        action: 'followed you',
         dateTime: '5m ago',
         read: false
     },

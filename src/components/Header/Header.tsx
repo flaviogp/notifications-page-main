@@ -2,9 +2,18 @@ import { IData } from "../../interfaces/interfaces"
 
 interface HeaderProps {
   notifications: IData
+  setNotifications: (arg: IData) => void
 }
 
-export default function Header({notifications}: HeaderProps) {
+export default function Header({notifications, setNotifications}: HeaderProps) {
+
+    const handleClick = () => {
+
+      const newNotifications = [...notifications]
+      newNotifications.map(item => item.read = true)
+
+      setNotifications(newNotifications);
+    }
 
     const countNotificationsNotRead = (): number => {
       let count = 0;
@@ -19,7 +28,7 @@ export default function Header({notifications}: HeaderProps) {
           <span>{countNotificationsNotRead()}</span>
         </div>
 
-        <button>Mark all as read</button>
+        <button onClick={() => handleClick()}>Mark all as read</button>
 
       </header>
     )

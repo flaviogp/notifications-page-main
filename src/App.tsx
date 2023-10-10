@@ -7,8 +7,6 @@ export default function App() {
   const [notifications, setNotifications] = useState<IData>([...data])
 
   return (
-    <>
-    <Main notifications={notifications} setNotifications={setNotifications}/>
-    </>
+      <Main notifications={notifications} setNotifications={setNotifications}/>
   )
 }
