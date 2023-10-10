@@ -1,7 +1,7 @@
 export const data = [
     {
         user: 'Mark Webber',
-        userImage: './src/assets/images/avatar-mark-webber.webp',
+        userImage: './assets/images/avatar-mark-webber.webp',
         action: 'reacted to your recent post',
         act: 'My first tournament today!',
         dateTime: '1m ago',
@@ -9,14 +9,14 @@ export const data = [
     },
     {
         user: 'Angela Gray',
-        userImage: './src/assets/images/avatar-angela-gray.webp',
+        userImage: './assets/images/avatar-angela-gray.webp',
         action: 'followed you',
         dateTime: '5m ago',
         read: false
     },
     {
         user: 'jacob Thompson',
-        userImage: './src/assets/images/avatar-jacob-thompson.webp',
+        userImage: './assets/images/avatar-jacob-thompson.webp',
         action: 'has joined your group',
         act: 'Chess Club',
         dateTime: '1 day ago',
@@ -25,7 +25,7 @@ export const data = [
     {
         user: 'Risky Hasamuddin',
         action: 'send dyou a private message',
-        userImage: './src/assets/images/avatar-rizky-hasanuddin.webp',
+        userImage: './assets/images/avatar-rizky-hasanuddin.webp',
         content: {
             item: 'message',
             content: "Hello thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game",
@@ -35,18 +35,18 @@ export const data = [
     },
     {
         user: 'Kimberly Smith',
-        userImage: './src/assets/images/avatar-kimberly-smith.webp',
+        userImage: './assets/images/avatar-kimberly-smith.webp',
         action: 'comment your picture',
         content: {
             item: 'image',
-            content: './src/assets/images/image-chess.webp'
+            content: './assets/images/image-chess.webp'
         },
         dateTime: '1 week ago',
         read: false
     },
     {
         user: 'Nathan Peterson',
-        userImage: './src/assets/images/avatar-nathan-peterson.webp',
+        userImage: './assets/images/avatar-nathan-peterson.webp',
         action: 'reacted to your recent post',
         act: '5 end-game strategies to increase your win rate',
         dateTime: '2 weeks ago',
@@ -54,7 +54,7 @@ export const data = [
     },
     {
         user: 'Anna Kim',
-        userImage: './src/assets/images/avatar-anna-kim.webp',
+        userImage: './assets/images/avatar-anna-kim.webp',
         action: 'left the group',
         act: 'Chess Club',
         dateTime: '2 weeks ago',
