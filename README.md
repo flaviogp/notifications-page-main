@@ -9,7 +9,7 @@
     <a href="https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="https://adorable-meerkat-fa038b.netlify.app/">View Demo</a>
+    <a href="https://tubular-semolina-6ea513.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/flaviogp/notifications-page-main/issues">Report Bug</a>
     ·
@@ -44,7 +44,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 - Solution URL: [Notifications page(ReactJs/TypeScript) | Frontend Mentor](https://www.frontendmentor.io/solutions/espenses-chat-component-reactjs-typescript-sass-F3ht00TRbA)
 
-- Live Site URL: [ Click here ](https://adorable-meerkat-fa038b.netlify.app/)
+- Live Site URL: [ Click here ](https://tubular-semolina-6ea513.netlify.app/)
 
 <br>
 
