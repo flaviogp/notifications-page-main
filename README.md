@@ -42,7 +42,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Notifications page(ReactJs/TypeScript) | Frontend Mentor](https://www.frontendmentor.io/solutions/espenses-chat-component-reactjs-typescript-sass-F3ht00TRbA)
+- Solution URL: [Notifications page(ReactJs/TypeScript) | Frontend Mentor](https://www.frontendmentor.io/solutions/notification-page-using-reactjs-typescript-and-sass-FjDFSB1AwL)
 
 - Live Site URL: [ Click here ](https://tubular-semolina-6ea513.netlify.app/)
 
